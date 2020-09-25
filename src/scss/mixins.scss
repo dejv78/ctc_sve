@@ -1,0 +1,18 @@
+@mixin flexed($dir, $align, $justify) {
+  display: flex;
+  flex-flow: $dir;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+@mixin fill() {
+  flex-grow: 1;
+}
+
+@mixin radius($size) {
+  border-radius: $size;
+  -webkit-border-radius: $size;
+  -moz-border-radius: $size;
+}
+
+$color-ugly: coral;
